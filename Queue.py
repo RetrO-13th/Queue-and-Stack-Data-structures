@@ -1,7 +1,7 @@
 class Queue: # Class for operations related to queue.
 
     def __init__(self) -> None:
-        self.queue = [] # Initialise empty stack.
+        self.queue = [] # Initialise empty queue.
 
     def push(self, data) -> None:
         # Method to add elements at the top of the queue.
