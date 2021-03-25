@@ -10,7 +10,7 @@ class Stack: # Class for operations related to stack.
     def pop(self) -> None:
         # Method to deletes the top most element of the stack.
         if len(self.stack) <= 0:
-            raise IndexError("No element in the queue")
+            raise IndexError("No element in the stack")
         else:
             self.stack.pop()
 
